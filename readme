@@ -1,0 +1,34 @@
+# Team Role Assignment Automation Script
+
+This Python script automates the process of logging into the GreenDash Manage Team portal, searching for a random employee, and assigning a random role using **Selenium**.
+
+---
+
+## Features
+
+- Logs into `https://www.greendash.app/manage-team` with provided credentials.
+- Picks a random employee from a predefined list.
+- Searches and selects the employee in the UI.
+- Assigns a random role from a predefined set of roles.
+- Saves the changes automatically.
+- it is a automated script hence user & role selection are mean to keep randomize i.e the field chooses randomly (a user also can alter data to obtain the desired result)
+
+---
+
+## Prerequisites
+
+- Python 3.8 or higher
+- Google Chrome installed
+- ChromeDriver installed and added to your system PATH
+- Required Python packages (listed in `requirements.txt`)
+
+---
+
+## Installation
+
+1. Clone the repository or download the script.
+2. Install required packages:
+3. run index.py
+
+```bash
+pip install -r requirements.txt
