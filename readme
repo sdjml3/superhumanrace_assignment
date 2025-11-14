@@ -11,8 +11,8 @@ This Python script automates the process of logging into the GreenDash Manage Te
 - Searches and selects the employee in the UI.
 - Assigns a random role from a predefined set of roles.
 - Saves the changes automatically.
-- it is a automated script hence user & role selection are mean to keep randomize i.e the field chooses randomly (a user also can alter data to obtain the desired result)
-
+- This is an automated script; hence, user and role selection are randomized. 
+- That is, the fields choose values randomly (a user could also alter data to achieve a desired result). 
 ---
 
 ## Prerequisites
@@ -32,3 +32,4 @@ This Python script automates the process of logging into the GreenDash Manage Te
 
 ```bash
 pip install -r requirements.txt
+
